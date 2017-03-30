@@ -1,0 +1,9 @@
+bash file.sh arg1 arg2 ... agN
+
+$@ = all the arguments as a list
+$* = all the arguments as a string
+$# = number of the arguments passed
+
+declare -a array1   (creates an array)
+
+echo ${array1[@]}
